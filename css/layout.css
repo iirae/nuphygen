@@ -8,15 +8,17 @@ body {
 .report-page {
     width: 210mm;
     min-height: 297mm;
+    margin: 10mm auto;
     padding: 16mm;
     /* set report-contents area */
-    margin: 10mm auto;
     border-radius: 5px;
+    font-size: 0.75em;
     background: #fff;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
 .report-content {
+    position: relative;
     padding: 0;
     border: 1px #888 dotted;
     height: 257mm;
