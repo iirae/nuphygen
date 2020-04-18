@@ -1,6 +1,7 @@
 body {counter-reset: page;}
 .report-page {position:relative;}
-.report-page:before {position:absolute; top:40px; right:30px; font-size:10px; line-height:12px; color:#4a7dbb; counter-increment: page; content: counter(page);}
+.report-page:before {z-index:5; position:absolute; top:40px; right:30px; font-size:10px; line-height:12px; font-weight:500; color:#4a7dbb; counter-increment: page; content: counter(page);}
+.report-page.page-cover:before {color:#fff;}
 
 .mt-10 {margin-top:10px !important;}
 .mt-20 {margin-top:20px !important;}
@@ -14,13 +15,13 @@ body {counter-reset: page;}
 .table {margin:0 -10px; font-size:9px;}
 .table + .table {margin-top:30px;}
 .table table {border-collapse:separate; border-spacing:10px 0;}
-.table thead th {text-align:center; font-weight:700; color:#fff; border-bottom-width:0; background:#2c6cb7;}
+.table thead th {text-align:center; font-weight:900; color:#fff; border-bottom-width:0; background:#2c6cb7;}
 .table tbody tr:first-of-type td {border-top:1px solid #2c6cb7;}
 .table thead + tbody tr:first-of-type td {border-top-width:0;}
 .table th, td {padding:6px 10px 5px; line-height:1.33; border-bottom:1px solid #2c6cb7;}
 .table td {position:relative; color:#2c6cb7;}
 .table .count {position:absolute; top:50%;left:0; display:inline-block; margin-top:-6px; width:44px; text-align:center;}
-.table .count + p {display:inline-block; padding-left:34px;}
+.table span.count + p {display:inline-block; padding-left:34px;}
 .table tbody tr:nth-of-type(2n),
 .table .bg {background:#f3f7fe;}
 .table .center {text-align:center;}
