@@ -1,20 +1,41 @@
+body {counter-reset: page;}
+.report-page {position:relative;}
+.report-page:before {position:absolute; top:40px; right:30px; font-size:10px; line-height:12px; color:#4a7dbb; counter-increment: page; content: counter(page);}
 
+.mt-10 {margin-top:10px !important;}
+.mt-20 {margin-top:20px !important;}
 .contents {margin-top:30px;}
 
+.sec {overflow:hidden;margin:30px 0 10px;}
+.sec .sec-title {float:left; margin:0;}
+.sec .info {float:right; color:#2c6cb7; font-size:9px; line-height:14px;}
 .sec-title {margin:30px 0 10px; font-size:12px; line-height:1.5; font-weight:900;}
 
-.table {margin:0 -10px;}
+.table {margin:0 -10px; font-size:9px;}
+.table + .table {margin-top:30px;}
 .table table {border-collapse:separate; border-spacing:10px 0;}
 .table thead th {text-align:center; font-weight:700; color:#fff; border-bottom-width:0; background:#2c6cb7;}
 .table tbody tr:first-of-type td {border-top:1px solid #2c6cb7;}
 .table thead + tbody tr:first-of-type td {border-top-width:0;}
-.table th, td {padding:6px 10px; border-bottom:1px solid #2c6cb7;}
-.table td {color:#2c6cb7;}
+.table th, td {padding:6px 10px 5px; line-height:1.33; border-bottom:1px solid #2c6cb7;}
+.table td {position:relative; color:#2c6cb7;}
+.table .count {position:absolute; top:50%;left:0; display:inline-block; margin-top:-6px; width:44px; text-align:center;}
+.table .count + p {display:inline-block; padding-left:34px;}
 .table tbody tr:nth-of-type(2n),
 .table .bg {background:#f3f7fe;}
 .table .center {text-align:center;}
 .table .left {text-align:left;}
 .table .right {text-align:right;}
+.table th.rate {background: linear-gradient(to right, rgba(255,1,1,1) 0%, rgba(255,1,1,1) 6%, rgba(252,121,33,1) 38%, rgba(99,174,51,1) 62%, rgba(44,108,183,1) 94%, rgba(44,108,183,1) 100%);}
+.table td.rate span {display:block; margin:0 6px; width:8px; height:8px; border-radius:50%;}
+.table td.rate .worst {background:#ff0101;}
+.table td.rate .worse {margin-left:26px; background:#fc7921;}
+.table td.rate .good {margin-left:46px; background:#63ae33;}
+.table td.rate .best {margin-left:66px; background:#2c6cb7;}
+.table .sub-title {display:block;margin-bottom:6px;font-size:11px; font-weight:900; line-height:14px;}
+.table p {padding:4px 0; line-height:14px;}
+.table p + p {margin-top:6px;}
+.table.p-pad-reset p {padding:0; line-height:12px;}
 
 .page-cover {padding:0; background:#fff;}
 .page-cover .report-content {display:flex; height:100%;}
