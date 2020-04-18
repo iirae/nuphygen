@@ -360,6 +360,10 @@
     background-color: #09af00;
 }
 
+.report-visual .report-visual-fatty li.item-text {
+    font-size: 8px;
+}
+
 .report-visual .report-visual-title {
     margin: 0 0 20px;
     color: #000;
