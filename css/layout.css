@@ -42,6 +42,7 @@ header:before {
 
 header h1 {
     padding-left: 14px;
+    font-weight: 900;
 }
 
 header h1,
@@ -106,6 +107,7 @@ footer strong {
     body {
         width: 15.71cm;
         height: 22.27cm;
+        background: #fff;
     }
 
     .report-page {

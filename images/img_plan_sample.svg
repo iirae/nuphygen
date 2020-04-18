@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="475" height="124" viewBox="0 0 475 124">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <path fill="#2C6CB7" d="M60 24H475V25H60z" transform="translate(0 99)"/>
+            <path fill="#FFF" d="M60 0H475V24H60z" transform="translate(0 99)"/>
+            <g fill="#2C6CB7" opacity=".5">
+                <path d="M295 0H296V12H295zM236 0H237V12H236zM177 0H178V12H177zM118 0H119V12H118zM59 0H60V12H59zM0 0H1V12H0z" transform="translate(0 99) translate(120 6)"/>
+            </g>
+            <path fill="#2C6CB7" d="M0 24H50V25H0z" transform="translate(0 99)"/>
+            <path fill="#FFF" d="M0 0H50V24H0z" transform="translate(0 99)"/>
+            <text fill="#2C6CB7" font-family="NanumSquareOTFB, NanumSquareOTF" font-size="9" font-weight="bold" transform="translate(0 99)">
+                <tspan x="442.323" y="14">O</tspan>
+            </text>
+            <text fill="#FF0101" font-family="NanumSquareOTFB, NanumSquareOTF" font-size="9" font-weight="bold" transform="translate(0 99)">
+                <tspan x="383.137" y="14">x</tspan>
+            </text>
+            <text fill="#2C6CB7" font-family="NanumSquareOTFB, NanumSquareOTF" font-size="9" font-weight="bold" transform="translate(0 99)">
+                <tspan x="323.323" y="14">O</tspan>
+            </text>
+            <text fill="#2C6CB7" font-family="NanumSquareOTFB, NanumSquareOTF" font-size="9" font-weight="bold" transform="translate(0 99)">
+                <tspan x="265.323" y="14">O</tspan>
+            </text>
+            <text fill="#FF0101" font-family="NanumSquareOTFB, NanumSquareOTF" font-size="9" font-weight="bold" transform="translate(0 99)">
+                <tspan x="206.137" y="14">x</tspan>
+            </text>
+            <text fill="#2C6CB7" font-family="NanumSquareOTFB, NanumSquareOTF" font-size="9" font-weight="bold" transform="translate(0 99)">
+                <tspan x="146.323" y="14">O</tspan>
+            </text>
+            <text fill="#FF0101" font-family="NanumSquareOTFB, NanumSquareOTF" font-size="9" font-weight="bold" transform="translate(0 99)">
+                <tspan x="88.138" y="14">x</tspan>
+            </text>
+            <text fill="#2C6CB7" font-family="NanumSquareOTFB, NanumSquareOTF" font-size="9" font-weight="bold" transform="translate(0 99)">
+                <tspan x="17.31" y="14">결과</tspan>
+            </text>
+        </g>
+        <g>
+            <path fill="#2C6CB7" d="M60 24H475V25H60z" transform="translate(0 74)"/>
+            <path fill="#FFF" d="M60 0H475V24H60z" transform="translate(0 74)"/>
+            <g fill="#2C6CB7" opacity=".5">
+                <path d="M295 0H296V12H295zM236 0H237V12H236zM177 0H178V12H177zM118 0H119V12H118zM59 0H60V12H59zM0 0H1V12H0z" transform="translate(0 74) translate(120 6)"/>
+            </g>
+            <path fill="#2C6CB7" d="M0 24H50V25H0z" transform="translate(0 74)"/>
+            <path fill="#FFF" d="M0 0H50V24H0z" transform="translate(0 74)"/>
+            <text fill="#2C6CB7" font-family="NanumSquareOTFB, NanumSquareOTF" font-size="9" font-weight="bold" transform="translate(0 74)">
+                <tspan x="435.915" y="14">60분</tspan>
+            </text>
+            <text fill="#2C6CB7" font-family="NanumSquareOTFB, NanumSquareOTF" font-size="9" font-weight="bold" transform="translate(0 74)">
+                <tspan x="375.565" y="14">1시간</tspan>
+            </text>
+            <text fill="#2C6CB7" font-family="NanumSquareOTFB, NanumSquareOTF" font-size="9" font-weight="bold" transform="translate(0 74)">
+                <tspan x="324.61" y="14">-</tspan>
+            </text>
+            <text fill="#2C6CB7" font-family="NanumSquareOTFB, NanumSquareOTF" font-size="9" font-weight="bold" transform="translate(0 74)">
+                <tspan x="257.915" y="14">20개</tspan>
+            </text>
+            <text fill="#2C6CB7" font-family="NanumSquareOTFB, NanumSquareOTF" font-size="9" font-weight="bold" transform="translate(0 74)">
+                <tspan x="197.565" y="14">1시간</tspan>
+            </text>
+            <text fill="#2C6CB7" font-family="NanumSquareOTFB, NanumSquareOTF" font-size="9" font-weight="bold" transform="translate(0 74)">
+                <tspan x="139.915" y="14">30회</tspan>
+            </text>
+            <text fill="#2C6CB7" font-family="NanumSquareOTFB, NanumSquareOTF" font-size="9" font-weight="bold" transform="translate(0 74)">
+                <tspan x="79.565" y="14">1시간</tspan>
+            </text>
+            <text fill="#2C6CB7" font-family="NanumSquareOTFB, NanumSquareOTF" font-size="9" font-weight="bold" transform="translate(0 74)">
+                <tspan x="17.31" y="14">목표</tspan>
+            </text>
+        </g>
+        <g>
+            <path fill="#2C6CB7" d="M60 24H475V25H60z" transform="translate(0 49)"/>
+            <path fill="#F3F7FE" d="M60 0H475V24H60z" transform="translate(0 49)"/>
+            <g fill="#2C6CB7" opacity=".5">
+                <path d="M295 0H296V12H295zM236 0H237V12H236zM177 0H178V12H177zM118 0H119V12H118zM59 0H60V12H59zM0 0H1V12H0z" transform="translate(0 49) translate(120 6)"/>
+            </g>
+            <path fill="#2C6CB7" d="M0 24H50V25H0z" transform="translate(0 49)"/>
+            <path fill="#F3F7FE" d="M0 0H50V24H0z" transform="translate(0 49)"/>
+            <text fill="#2C6CB7" font-family="NanumSquareOTFB, NanumSquareOTF" font-size="9" font-weight="bold" transform="translate(0 49)">
+                <tspan x="433.215" y="14">자전거</tspan>
+            </text>
+            <text fill="#2C6CB7" font-family="NanumSquareOTFB, NanumSquareOTF" font-size="9" font-weight="bold" transform="translate(0 49)">
+                <tspan x="377.31" y="14">걷기</tspan>
+            </text>
+            <text fill="#2C6CB7" font-family="NanumSquareOTFB, NanumSquareOTF" font-size="9" font-weight="bold" transform="translate(0 49)">
+                <tspan x="318.31" y="14">휴식</tspan>
+            </text>
+            <text fill="#2C6CB7" font-family="NanumSquareOTFB, NanumSquareOTF" font-size="9" font-weight="bold" transform="translate(0 49)">
+                <tspan x="256.215" y="14">푸쉬업</tspan>
+            </text>
+            <text fill="#2C6CB7" font-family="NanumSquareOTFB, NanumSquareOTF" font-size="9" font-weight="bold" transform="translate(0 49)">
+                <tspan x="200.31" y="14">걷기</tspan>
+            </text>
+            <text fill="#2C6CB7" font-family="NanumSquareOTFB, NanumSquareOTF" font-size="9" font-weight="bold" transform="translate(0 49)">
+                <tspan x="137.215" y="14">스쿼트</tspan>
+            </text>
+            <text fill="#2C6CB7" font-family="NanumSquareOTFB, NanumSquareOTF" font-size="9" font-weight="bold" transform="translate(0 49)">
+                <tspan x="82.31" y="14">걷기</tspan>
+            </text>
+            <text fill="#2C6CB7" font-family="NanumSquareOTFB, NanumSquareOTF" font-size="9" font-weight="bold" transform="translate(0 49)">
+                <tspan x="17.31" y="14">운동</tspan>
+            </text>
+        </g>
+        <g>
+            <path fill="#2C6CB7" d="M60 24H475V25H60z" transform="translate(0 24)"/>
+            <path fill="#FFF" d="M60 0H475V24H60z" transform="translate(0 24)"/>
+            <g fill="#2C6CB7" opacity=".5">
+                <path d="M295 0H296V12H295zM236 0H237V12H236zM177 0H178V12H177zM118 0H119V12H118zM59 0H60V12H59zM0 0H1V12H0z" transform="translate(0 24) translate(120 6)"/>
+            </g>
+            <path fill="#2C6CB7" d="M0 24H50V25H0z" transform="translate(0 24)"/>
+            <path fill="#FFF" d="M0 0H50V24H0z" transform="translate(0 24)"/>
+            <text fill="#2C6CB7" font-family="NanumSquareOTFB, NanumSquareOTF" font-size="9" font-weight="bold" transform="translate(0 24)">
+                <tspan x="433.197" y="14">12.07</tspan>
+            </text>
+            <text fill="#2C6CB7" font-family="NanumSquareOTFB, NanumSquareOTF" font-size="9" font-weight="bold" transform="translate(0 24)">
+                <tspan x="374.197" y="14">12.06</tspan>
+            </text>
+            <text fill="#2C6CB7" font-family="NanumSquareOTFB, NanumSquareOTF" font-size="9" font-weight="bold" transform="translate(0 24)">
+                <tspan x="314.197" y="14">12.05</tspan>
+            </text>
+            <text fill="#2C6CB7" font-family="NanumSquareOTFB, NanumSquareOTF" font-size="9" font-weight="bold" transform="translate(0 24)">
+                <tspan x="255.197" y="14">12.04</tspan>
+            </text>
+            <text fill="#2C6CB7" font-family="NanumSquareOTFB, NanumSquareOTF" font-size="9" font-weight="bold" transform="translate(0 24)">
+                <tspan x="196.197" y="14">12.03</tspan>
+            </text>
+            <text fill="#2C6CB7" font-family="NanumSquareOTFB, NanumSquareOTF" font-size="9" font-weight="bold" transform="translate(0 24)">
+                <tspan x="137.197" y="14">12.02</tspan>
+            </text>
+            <text fill="#2C6CB7" font-family="NanumSquareOTFB, NanumSquareOTF" font-size="9" font-weight="bold" transform="translate(0 24)">
+                <tspan x="78.197" y="14">12.03</tspan>
+            </text>
+            <text fill="#2C6CB7" font-family="NanumSquareOTFB, NanumSquareOTF" font-size="9" font-weight="bold" transform="translate(0 24)">
+                <tspan x="17.31" y="14">일자</tspan>
+            </text>
+        </g>
+        <path fill="#2C6CB7" d="M60 0H475V24H60z"/>
+        <g fill="#FFF" opacity=".5">
+            <path d="M295 0H296V12H295zM236 0H237V12H236zM177 0H178V12H177zM118 0H119V12H118zM59 0H60V12H59zM0 0H1V12H0z" transform="translate(120 6)"/>
+        </g>
+        <path fill="#2C6CB7" d="M0 0H50V24H0z"/>
+        <text fill="#FFF" font-family="NanumSquareOTFEB, NanumSquareOTF" font-size="9" font-weight="600">
+            <tspan x="437.108" y="14">Sun</tspan>
+        </text>
+        <text fill="#FFF" font-family="NanumSquareOTFEB, NanumSquareOTF" font-size="9" font-weight="600">
+            <tspan x="379.246" y="14">Sat</tspan>
+        </text>
+        <text fill="#FFF" font-family="NanumSquareOTFEB, NanumSquareOTF" font-size="9" font-weight="600">
+            <tspan x="321.127" y="14">Fri</tspan>
+        </text>
+        <text fill="#FFF" font-family="NanumSquareOTFEB, NanumSquareOTF" font-size="9" font-weight="600">
+            <tspan x="260.355" y="14">Thu</tspan>
+        </text>
+        <text fill="#FFF" font-family="NanumSquareOTFEB, NanumSquareOTF" font-size="9" font-weight="600">
+            <tspan x="199.293" y="14">Wed</tspan>
+        </text>
+        <text fill="#FFF" font-family="NanumSquareOTFEB, NanumSquareOTF" font-size="9" font-weight="600">
+            <tspan x="142.756" y="14">Tue</tspan>
+        </text>
+        <text fill="#FFF" font-family="NanumSquareOTFEB, NanumSquareOTF" font-size="9" font-weight="600">
+            <tspan x="81.032" y="14">Mon</tspan>
+        </text>
+        <text fill="#FFF" font-family="NanumSquareOTFEB, NanumSquareOTF" font-size="9" font-weight="600">
+            <tspan x="17.31" y="14">구분</tspan>
+        </text>
+        <path fill="#F3F7FE" d="M0 0H475V124H0z" opacity=".2"/>
+        <text fill="#FF0101" font-family="NanumSquareOTFEB, NanumSquareOTF" font-size="28" font-weight="600" transform="rotate(-15 237.104 62.466)">
+            <tspan x="181.202" y="70.966">SAMPLE</tspan>
+        </text>
+    </g>
+</svg>
