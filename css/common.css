@@ -1,7 +1,8 @@
 body {counter-reset: page;}
 .report-page {position:relative;}
 .report-page:before {z-index:5; position:absolute; top:40px; right:30px; font-size:10px; line-height:12px; font-weight:500; color:#4a7dbb; counter-increment: page; content: counter(page);}
-.report-page.page-cover:before {color:#fff;}
+.report-page.page-cover:before,
+.report-content-finish:before {color:#fff;}
 
 .mt-10 {margin-top:10px !important;}
 .mt-20 {margin-top:20px !important;}
