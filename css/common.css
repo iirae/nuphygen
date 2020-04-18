@@ -1,0 +1,26 @@
+.page-cover {display:flex;}
+.page-cover h1 {flex:0 0 215px; padding-top:97px; justify-content: center; text-align:center; border-right:30px solid #a8c2e5;}
+.page-cover .info {flex:1 1 auto; padding:100px 0 0 60px; color:#fff; background:#2c6cb7;}
+.page-cover .info h2 {position:relative; font-size:28px; line-height:36px; font-weight:900;}
+.page-cover .info h2:after {position:absolute; bottom:-10px; left:0; content:""; display:inline-block; width:244px; height:2px; background:#fff;}
+.page-cover .info ul {margin-top:220px; font-size:12px; line-height:1.17;}
+.page-cover .info li {}
+.page-cover .info li + li {margin-top:14px;}
+.page-cover .info li strong {display:inline-block; width:80px; font-weight:900;}
+.page-cover .info li span {font-weight:700;}
+
+.dh-second {padding-top:60px;}
+.dh-second h1 {font-size:20px; color:#333; line-height:28px; font-weight:900;}
+.dh-second h1 strong {color:#2c6cb7; font-weight:900;}
+.dh-second .content {margin-top:40px;}
+.dh-second .content p {font-size:11px; line-height:1.64; color:#111;}
+.dh-second .content p + p {margin-top:18px;}
+.dh-second .certification {display:flex; margin-top:50px;}
+.dh-second .certification > div {flex:0 0 145px;}
+.dh-second .certification > div + div {margin-left:20px;}
+.dh-second .certification .person {padding:0 10px;}
+.dh-second .certification .person h2 {margin:0 -10px; padding:6px 0; text-align:center; font-size:9px; line-height:12px; color:#fff; background:#2c6cb7;}
+.dh-second .certification .person strong {display:block; margin-top:12px; font-size:10px; line-height:12px; color:#000; font-weight:900;}
+.dh-second .certification .person ul {margin-top:8px; font-weight:500; line-height:1.6;}
+.dh-second .certification .person li {}
+.dh-second .certification .image {}
