@@ -111,6 +111,10 @@
     font-weight: 900;
 }
 
+.report-content{
+    font-size: 9px;
+}
+
 .report-content-finish {
     color: #fff;
     background: #2c6cb7;
@@ -136,18 +140,9 @@
     display: none;
 }
 
-.report-footer li {
-    margin: 15px 0 0;
-}
-
-.report-footer li:first-child {
-    margin-top: 0;
-}
-
 .report-visual {
     margin: 30px 0 40px 10px;
     color: #2c6cb7;
-
 }
 
 .report-visual:after {
@@ -165,7 +160,6 @@
 
 .report-visual .report-visual-vitamineral {
     width: 155px;
-
 }
 
 .report-visual .report-visual-vitamineral ul {
@@ -334,8 +328,7 @@
 
 .report-visual .report-visual-fatty {
     float: right;
-    font-size: 9px;
-    width: 240px;
+    width: 266px;
 }
 
 .report-visual .report-visual-fatty ul {
@@ -346,7 +339,7 @@
 
 .report-visual .report-visual-fatty li {
     line-height: 1;
-    padding: 7px 2px;
+    padding: 7px 0;
     border-radius: 4px;
     border: solid 1px #2c6cb7;
     text-align: center;
@@ -363,6 +356,17 @@
 .report-visual .report-visual-fatty li.item-text {
     font-size: 8px;
 }
+.report-visual .report-visual-fatty li.item-text span{
+    letter-spacing: -1px;
+    -webkit-transform: scale(0.8);
+}
+.report-visual .report-visual-fatty li span{
+    display: inline-block;
+    margin-top: 1px;
+    font-size: 10px;
+    -webkit-transform: scale(0.9);
+}
+
 
 .report-visual .report-visual-title {
     margin: 0 0 20px;
@@ -449,6 +453,11 @@
     border: none;
     background: #2c6cb7;
 }
+.report-table tr.report-table-theme4,
+.report-table th.report-table-theme4,
+.report-table td.report-table-theme4 {
+    font-size: 8px;
+}
 
 .report-table tr.report-table-theme th,
 .report-table tr.report-table-theme td {
@@ -527,7 +536,6 @@
     margin: 0 0 10px;
     padding: 6px 10px;
     color: #2c6cb7;
-    font-size: 9px;
     line-height: 1.33em;
     border-top: 1px solid #2c6cb7;
     border-bottom: 1px solid #2c6cb7;
@@ -573,7 +581,7 @@
     float: left;
     width: 54.36%;
     margin-left: 8%;
-    font-size: 1.11em;
+    font-size: 10px;
     line-height: 1.6em;
 }
 
@@ -606,8 +614,7 @@
 }
 
 .report-center-description {
-    font-size: 1.11em;
-
+    font-size: 10px;
     line-height: 1.6em;
 }
 
@@ -616,7 +623,7 @@
 }
 
 .report-center-description strong {
-    font-size: 1.11em;
+    font-size: 11px;
     font-weight: 900;
 }
 
@@ -655,7 +662,7 @@
 .report-center-time p {
     margin: 0 0 9px;
     color: #6200ee;
-    font-size: 2.11em;
+    font-size: 19px;
     font-weight: 900;
     line-height: 0.84em;
 }
@@ -677,7 +684,7 @@
 }
 
 .report-copyright strong {
-    font-size: 1.33em;
+    font-size: 11px;
     font-weight: 900;
 }
 
@@ -688,6 +695,7 @@
 .report-copyright ul li {
     position: relative;
     display: inline-block;
+    font-size: 10px;
 }
 
 .report-copyright ul li span {
