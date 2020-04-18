@@ -108,6 +108,7 @@ video {
     padding: 0;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
+    -webkit-print-color-adjust: exact;
 }
 
 html {
