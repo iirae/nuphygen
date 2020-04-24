@@ -6,11 +6,11 @@ body {
 }
 
 .report-page {
-    width: 595px;
-    height: 842px;
-    margin: 10mm auto;
-    padding: 50px 60px 40px;
+    width: 210mm;
+    min-height: 297mm;
+    padding: 10mm;
     /* set report-contents area */
+    margin: 0 auto;
     border-radius: 5px;
     background: #fff;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
@@ -19,7 +19,7 @@ body {
 .report-content {
     position: relative;
     padding: 0;
-    height: 752px;
+    height: 277.1mm;
 }
 
 header {
@@ -97,7 +97,7 @@ footer strong {
 }
 
 @page {
-    size: 15.71cm 22.27cm;
+    size: A4;
     margin: 0;
 }
 
@@ -105,8 +105,8 @@ footer strong {
 
     html,
     body {
-        width: 15.71cm;
-        height: 22.27cm;
+        width: 210mm;
+        height: 297mm;
         background: #fff;
     }
 
