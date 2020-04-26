@@ -1,6 +1,6 @@
 body {counter-reset: page;}
 .report-page {position:relative;}
-.report-page .count {z-index:5; position:absolute; top:40px; right:30px; font-size:12px; line-height:12px; color:#4a7dbb;}
+.report-page .count {z-index:5; position:absolute; top:54px; right:40px; font-size:12px; line-height:12px; color:#4a7dbb;}
 .report-page.page-cover .count,
 .report-content-finish .count {color:#fff;}
 
@@ -44,20 +44,20 @@ body {counter-reset: page;}
 .table.p-pad-reset p {padding:0; line-height:12px;}
 
 .page-cover {padding:0; background:#fff;}
-.page-cover .report-content {display:flex; max-height:100%;}
+.page-cover .report-content {display:flex; height:297mm;}
 .page-cover h1 {flex:0 0 244px; padding-top:130px; justify-content: center; text-align:center; border-right:30px solid #a8c2e5;}
 .page-cover .info {flex:1 1 auto; padding:135px 0 0 84px; color:#fff; background:#2c6cb7;}
 .page-cover .info h2 {position:relative; font-size:36px; line-height:46px; font-weight:700;}
-.page-cover .info h2:after {position:absolute; bottom:-10px; left:0; content:""; display:inline-block; width:316px; height:2px; background:#fff;}
+.page-cover .info h2:after {position:absolute; bottom:-15px; left:0; content:""; display:inline-block; width:316px; height:2px; background:#fff;}
 .page-cover .info ul {margin-top:316px; font-size:16px; line-height:1.17;}
 .page-cover .info li {}
 .page-cover .info li + li {margin-top:22px;}
 .page-cover .info li strong {display:inline-block; width:107px; font-weight:700;}
 
-.page-second {padding-top:60px;}
-.page-second h1 {font-size:20px; color:#333; line-height:28px; font-weight:900;}
-.page-second h1 strong {color:#2c6cb7; font-weight:900;}
-.page-second .content {margin-top:40px;}
+.page-second {padding-top:21mm;}
+.page-second h1 {font-size:26px; color:#333; line-height:36px; font-weight:700;}
+.page-second h1 strong {color:#2c6cb7;}
+.page-second .content {margin-top:50px;}
 .page-second .content p {font-size:11px; line-height:1.64; color:#111;}
 .page-second .content p + p {margin-top:18px;}
 .page-second .certification {display:flex; margin-top:50px;}
