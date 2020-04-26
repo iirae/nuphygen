@@ -19,7 +19,7 @@ body {
 .report-content {
     position: relative;
     padding: 0;
-    min-height: 269mm;
+    /*min-height: 269mm;*/
 }
 
 .layout-table thead,
@@ -27,6 +27,8 @@ body {
 .layout-table tfoot,
 .page-footer-space {padding-top:20px; height:150px;}
 
+.page-basic .layout-table tfoot, .page-footer-space,
+.page-basic footer {height:40px;}
 
 header {
     position: relative;

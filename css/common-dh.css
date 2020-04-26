@@ -4,6 +4,15 @@ body {counter-reset: page;}
 .report-page.page-cover > .count,
 .report-content-finish > .count {color:#fff;}
 
+.page-second .layout-table tfoot, .page-footer-space,
+.page-second footer {height:170px;}
+
+.page-third .layout-table tfoot, .page-footer-space,
+.page-third footer {height:106px;}
+
+.page-seventh .layout-table tfoot, .page-footer-space,
+.page-seventh footer {height:106px;}
+
 /*.report-page:before {z-index:5; position:absolute; top:40px; right:30px; font-size:10px; line-height:12px; font-weight:500; color:#4a7dbb; counter-increment: page; content: counter(page);}*/
 /*.report-page.page-cover:before,*/
 /*.report-content-finish:before {color:#fff;}*/
@@ -59,7 +68,7 @@ body {counter-reset: page;}
 .page-cover .info li strong {display:inline-block; width:107px; font-weight:700;}
 
 .page-second {padding-top:21mm; padding-bottom:13mm;}
-.page-second .report-content {height:263mm;}
+.page-second .report-content {min-height:0;}
 .page-second h1 {font-size:26px; color:#333; line-height:36px; font-weight:700;}
 .page-second h1 strong {color:#2c6cb7;}
 .page-second .content {margin-top:50px;}
@@ -101,8 +110,8 @@ body {counter-reset: page;}
 .personal-info .bmi .number {}
 .personal-info .bmi .number li {position:relative; padding-top:21px; }
 .personal-info .bmi .number li:before {position:absolute; top:0; display:block; content:""; width:2px; height:16px; background:#333;}
-.personal-info .bmi .number li + li {margin-left:72px;}
-.personal-info .bmi .number li:nth-of-type(3) {margin-left:74px;}
+.personal-info .bmi .number li + li {margin-left:73px;}
+/*.personal-info .bmi .number li:nth-of-type(3) {margin-left:74px;}*/
 .personal-info .bmi .number li span {position:relative; left:-10px;}
 .personal-info .average {margin-left:78px; justify-content:flex-start;}
 .personal-info .average .image{margin-top:2px; width:34px; height:34px;}
