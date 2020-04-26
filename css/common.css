@@ -27,13 +27,14 @@ body {
 }
 
 .report-page.page-cover .paginate,
-.report-page.page-second .paginate {
-    top:54px;
-    right:40px;
+.report-page.page-second .paginate,
+.report-page.report-content-finish .paginate {
+    top: 54px;
+    right: 40px;
 }
 
 .report-page.page-cover .paginate,
-.report-content-finish .paginate {
+.report-page.report-content-finish .paginate {
     color: #fff;
 }
 
@@ -238,7 +239,7 @@ body {
 }
 
 .header {
-    margin-bottom:40px;
+    margin-bottom: 40px;
 }
 
 .page-cover {
@@ -900,7 +901,7 @@ body {
 
 .report-visual .report-visual-vitamineral li.vmse {
     top: 120px;
-    background-image: url('../images/img_vmse.png');
+    background-image: url('../images/img_vmse.svg');
 }
 
 .report-visual .report-visual-vitamineral li.vmse.active {
@@ -933,13 +934,19 @@ body {
 }
 
 .report-visual .report-visual-fatty ul {
-    display: grid;
+    /* display: grid;
     grid: auto / 114px 114px 114px;
-    grid-gap: 6px;
+    grid-gap: 6px; */
+    margin: -6px 0 0 -6px;
+    line-height: 0;
+    font-size: 0;
 }
 
 .report-visual .report-visual-fatty li {
+    display: inline-block;
     line-height: 1;
+    width: 114px;
+    margin: 6px 0 0 6px;
     padding: 9px 8px;
     border-radius: 4px;
     border: 1px solid #2c6cb7;
@@ -1100,7 +1107,13 @@ body {
 
 .report-table .report-plan-week th,
 .report-table .report-plan-week td {
-    border-top: 1px solid #2c6cb7
+    border-top: 2px solid #2c6cb7
+}
+
+.report-table .report-plan-week.week-bottom th,
+.report-table .report-plan-week.week-bottom td {
+    border-top-width: 0;
+    border-bottom: 3px solid #2c6cb7
 }
 
 .report-table .report-plan-list {
@@ -1193,6 +1206,8 @@ body {
 }
 
 .report-reference-list {
+    overflow: hidden;
+    width: 100%;
     margin: 80px 0 0;
 }
 
