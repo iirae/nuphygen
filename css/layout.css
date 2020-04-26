@@ -20,15 +20,33 @@ body {
     position: relative;
     padding: 0;
     /*min-height: 269mm;*/
+
 }
 
 .layout-table thead,
-.page-header-space {height:18mm;}
-.layout-table tfoot,
-.page-footer-space {padding-top:20px; height:150px;}
+.page-header-space {
+    height: 18mm;
+}
 
-.page-basic .layout-table tfoot, .page-footer-space,
-.page-basic footer {height:40px;}
+.layout-table tfoot,
+.page-footer-space {
+    padding-top: 20px;
+    height: 150px;
+}
+
+.report-page.page-basic .layout-table tfoot,
+.report-page.page-basic .page-footer-space,
+.report-page.page-basic footer {
+    height: 40px;
+}
+
+
+.report-page.page-basic-small .layout-table tfoot,
+.report-page.page-basic-small .page-footer-space,
+.report-page.page-basic-small footer {
+    height: 0px;
+    padding: 1px;
+}
 
 header {
     position: relative;
@@ -74,15 +92,15 @@ header .report-header-description {
 }
 
 footer {
-    z-index:100;
+    z-index: 100;
     position: fixed;
     bottom: 0;
     margin: 0 auto;
     width: 168mm;
     color: #2c6cb7;
-    height:160px;
-    padding-top:20px;
-    background:#fff;
+    height: 160px;
+    padding-top: 20px;
+    background: #fff;
 }
 
 footer:before {
@@ -107,6 +125,21 @@ footer strong {
     font-weight: 700;
 }
 
+table {
+    page-break-inside: auto
+}
+
+tr {
+    page-break-inside: avoid;
+    page-break-after: auto
+}
+
+th,
+td {
+    page-break-after: auto
+}
+
+
 @page {
     size: A4;
     margin: 0;
@@ -130,10 +163,15 @@ footer strong {
         box-shadow: initial;
         background: initial;
         page-break-after: always;
-        page-break-inside:avoid;
+        page-break-inside: avoid;
     }
 
-    .layout-table thead {display: table-header-group;}
-    .layout-table tfoot {display: table-footer-group;}
+    .layout-table thead {
+        display: table-header-group;
+    }
+
+    .layout-table tfoot {
+        display: table-footer-group;
+    }
 
 }
