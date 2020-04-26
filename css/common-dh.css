@@ -18,13 +18,14 @@ body {counter-reset: page;}
 .sec .info {float:right; color:#2c6cb7; font-size:12px; line-height:16px;}
 .sec-title {margin:40px 0 16px; font-size:16px; line-height:1.125; font-weight:700;}
 
-.table {margin:0 -10px; font-size:12px;}
+.table {margin:0 -14px; font-size:12px;}
 .table + .table {margin-top:40px;}
 .table table {border-collapse:separate; border-spacing:14px 0;}
+/*.table table tr {page-break-inside:avoid;}*/
 .table thead th {text-align:center; font-weight:700; color:#fff; border-bottom-width:0; background:#2c6cb7;}
 .table tbody tr:first-of-type td {border-top:1px solid #2c6cb7;}
 .table thead + tbody tr:first-of-type td {border-top-width:0;}
-.table th, td {padding:8px 14px; line-height:1.33; border-bottom:1px solid #2c6cb7;}
+.table th, .table td {padding:8px 14px; line-height:1.33; border-bottom:1px solid #2c6cb7;}
 .table td {position:relative; color:#2c6cb7;}
 .table .count {position:absolute; top:50%; left:0; display:inline-block; margin-top:-6px; width:65px; text-align:center;}
 .table span.count + p {display:inline-block; padding-left:51px;}
