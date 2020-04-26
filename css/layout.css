@@ -19,7 +19,7 @@ body {
 .report-content {
     position: relative;
     padding: 0;
-    height: 269mm;
+    min-height: 269mm;
 }
 
 .report-content.with-footer {
@@ -133,7 +133,7 @@ footer strong {
         box-shadow: initial;
         background: initial;
         page-break-after: always;
-        /*page-break-inside:avoid;*/
+        page-break-inside:avoid;
     }
 
     .layout-table thead {display: table-header-group;}
