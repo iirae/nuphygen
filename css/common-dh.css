@@ -54,7 +54,7 @@ body {counter-reset: page;}
 .page-cover .info li + li {margin-top:22px;}
 .page-cover .info li strong {display:inline-block; width:107px; font-weight:700;}
 
-.page-second {padding-top:21mm;}
+.page-second {padding-top:21mm; padding-bottom:13mm;}
 .page-second h1 {font-size:26px; color:#333; line-height:36px; font-weight:700;}
 .page-second h1 strong {color:#2c6cb7;}
 .page-second .content {margin-top:50px;}
@@ -63,11 +63,11 @@ body {counter-reset: page;}
 .page-second .certification {display:flex; margin-top:97px;}
 .page-second .certification > div {flex:0 0 194px;}
 .page-second .certification > div + div {margin-left:26px;}
-.page-second .certification .person {position:relative; padding:0 10px;}
-.page-second .certification .person h2 {margin:0 -10px; padding:10px 0; text-align:center; font-size:12px; line-height:12px; color:#fff; background:#2c6cb7;}
-.page-second .certification .person strong {display:block; margin-top:18px; font-size:14px; line-height:14px; color:#000; font-weight:700;}
-.page-second .certification .person ul {margin-top:8px; font-weight:500; line-height:1.6;}
-.page-second .certification .person p {position:absolute; bottom:0;}
+.page-second .certification .person {position:relative; padding:0 14px;}
+.page-second .certification .person h2 {margin:0 -14px; padding:10px 0; text-align:center; font-size:12px; line-height:12px; color:#fff; background:#2c6cb7;}
+.page-second .certification .person strong {display:block; margin-top:18px; font-size:14px; line-height:1; color:#000; font-weight:700;}
+.page-second .certification .person ul {margin-top:12px; font-size:14px; line-height:1.43;}
+.page-second .certification .person p {position:absolute; left:0; bottom:0;}
 .page-second .certification .image {}
 
 .personal-info {margin-top:31px;}
