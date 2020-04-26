@@ -16,8 +16,24 @@ body {
     color: #4a7dbb;
 }
 
-.report-page.page-cover>.count,
-.report-content-finish>.count {
+.paginate {
+    z-index: 5;
+    position: absolute;
+    top: -3px;
+    right: -25px;
+    font-size: 12px;
+    line-height: 12px;
+    color: #4a7dbb;
+}
+
+.report-page.page-cover .paginate,
+.report-page.page-second .paginate {
+    top:54px;
+    right:40px;
+}
+
+.report-page.page-cover .paginate,
+.report-content-finish .paginate {
     color: #fff;
 }
 
@@ -53,10 +69,6 @@ body {
 
 .mt-30 {
     margin-top: 30px !important;
-}
-
-.contents {
-    margin-top: 40px;
 }
 
 .sec {
@@ -223,6 +235,10 @@ body {
 
 .table.p-pad-reset p {
     padding: 0;
+}
+
+.header {
+    margin-bottom:40px;
 }
 
 .page-cover {
