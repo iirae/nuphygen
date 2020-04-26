@@ -1,6 +1,6 @@
 body {counter-reset: page;}
 .report-page {position:relative;}
-.report-page .count {z-index:5; position:absolute; top:40px; right:30px; font-size:10px; line-height:12px; font-weight:500; color:#4a7dbb; counter-increment: page; content: counter(page);}
+.report-page .count {z-index:5; position:absolute; top:40px; right:30px; font-size:12px; line-height:12px; color:#4a7dbb;}
 .report-page.page-cover .count,
 .report-content-finish .count {color:#fff;}
 
@@ -44,12 +44,12 @@ body {counter-reset: page;}
 .table.p-pad-reset p {padding:0; line-height:12px;}
 
 .page-cover {padding:0; background:#fff;}
-.page-cover .report-content {display:flex; height:100%;}
-.page-cover h1 {flex:0 0 215px; padding-top:97px; justify-content: center; text-align:center; border-right:30px solid #a8c2e5;}
-.page-cover .info {flex:1 1 auto; padding:100px 0 0 60px; color:#fff; background:#2c6cb7;}
-.page-cover .info h2 {position:relative; font-size:28px; line-height:36px; font-weight:900;}
-.page-cover .info h2:after {position:absolute; bottom:-10px; left:0; content:""; display:inline-block; width:244px; height:2px; background:#fff;}
-.page-cover .info ul {margin-top:220px; font-size:12px; line-height:1.17;}
+.page-cover .report-content {display:flex; max-height:100%;}
+.page-cover h1 {flex:0 0 244px; padding-top:130px; justify-content: center; text-align:center; border-right:30px solid #a8c2e5;}
+.page-cover .info {flex:1 1 auto; padding:135px 0 0 84px; color:#fff; background:#2c6cb7;}
+.page-cover .info h2 {position:relative; font-size:36px; line-height:46px; font-weight:700;}
+.page-cover .info h2:after {position:absolute; bottom:-10px; left:0; content:""; display:inline-block; width:316px; height:2px; background:#fff;}
+.page-cover .info ul {margin-top:316px; font-size:12px; line-height:1.17;}
 .page-cover .info li {}
 .page-cover .info li + li {margin-top:14px;}
 .page-cover .info li strong {display:inline-block; width:80px; font-weight:900;}
