@@ -22,11 +22,6 @@ body {
     min-height: 269mm;
 }
 
-.report-content.with-footer {
-    padding-bottom:160px;
-    /*height:239mm;*/
-}
-
 .layout-table thead,
 .page-header-space {height:18mm;}
 .layout-table tfoot,
