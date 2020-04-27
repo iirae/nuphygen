@@ -21,6 +21,27 @@ body {
     color: #fff;
 }
 
+.paginate {
+    z-index: 5;
+    position: absolute;
+    top: -15px;
+    right: -40px;
+    font-size: 12px;
+    line-height: 12px;
+    color: #4a7dbb;
+}
+
+.report-page.page-cover .paginate,
+.report-page.page-second .paginate {
+    top:54px;
+    right:40px;
+}
+
+.report-page.page-cover .paginate,
+.report-content-finish .paginate {
+    color: #fff;
+}
+
 .page-second .layout-table tfoot,
 .page-footer-space,
 .page-second footer {
